@@ -5,10 +5,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Седона</title>
+    <link rel="stylesheet" href="styles/styles.css">
   </head>
 
   <body>
-    <header class="page-header">
+    <header class="page-header" data-test="header">
       <a class="header-logo">
         <img class="header-logo-img" src="images/logo_Sedona.svg" width="140" height="70" alt="логотип города Седона">
       </a>
@@ -47,9 +48,9 @@
       </nav>
     </header>
 
-    <main class="main-index">
+    <main class="main-index" data-test="main">
 
-      <section class="hero">
+      <section class="hero" data-test="hero">
         <h1 class="visually-hidden">Отдых в Седоне</h1>
         <img class="pic" src="images/welcome_text_2.svg" width="458" height="352"
           alt="Добро пожаловать в великолепную Седону, потому что Гранд-Каньон-отстой!">
@@ -58,7 +59,7 @@
         <p class="offer">Рассмотрим причины, по которым Седона круче, чем Гранд-Каньон!</p>
       </section>
 
-      <section class="advantages">
+      <section class="advantages" data-test="advantages">
         <h2 class="visually-hidden">Преимущества Седоны:</h2>
         <ul class="advantages-list">
           <li class="advantages-item"> <img src="images/city_1.jpg" width="800" height="385" alt="фото города Cедона">
@@ -112,7 +113,7 @@
         </ul>
       </section>
 
-      <section class="search-hotel">
+      <section class="search-hotel" data-test="search">
         <h2 class="visually-hidden">Поиск:</h2>
         <p class="search-hotel"><b>Заинтересовались?</b></p>
         <p class="search-hotel">Укажите предполагаемые даты поездки,и мы покажем вам лучшие предложения гостиниц в
@@ -121,9 +122,9 @@
       </section>
     </main>
 
-    <footer class="page-footer">
+    <footer class="page-footer" data-test="footer">
 
-      <section class="newsletter">
+      <section class="newsletter" data-test="subscribe">
         <h3 class="newsletter-title">Подпишитесь на рассылку</h3>
         <p class="newsletter-description">Только полезная информация и никакого спама, честное бойскаутское!</p>
         <form class="newsletter-form" action="https://echo.htmlacademy.ru/" method="post">

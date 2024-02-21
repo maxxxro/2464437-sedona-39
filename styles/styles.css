@@ -42,6 +42,12 @@ body {
   text-transform: capitalize;
 }
 
+.favorites-tag {
+  background-image: url(../images/number.svg);
+}
+
+
+
 .hero {
   color: #000000;
   background-image: url("../images/vector_flag.svg"), url("../images/index-background.jpg");
@@ -51,88 +57,124 @@ body {
 }
 
 .offer-text {
-font-weight: 700;
 font-size: 30px;
 line-height: 36px;
+font-weight: 700;
 text-align: center;
 text-transform: uppercase;
-
 }
 
 .offer-text-description {
-  font-weight: 400;
   font-size: 22px;
   line-height: 26px;
-  text-align: center;
-  color: rgba(51, 51, 51, 1);
-
-}
-
-.advantages-list {
+  font-weight: 400;
+  color: #333333;
   text-align: center;
 }
 
+.advantages-item {
+  background: #82B3D3;
+}
 
-.advantages-title {
+.advantages-dark .advantages-title {
   font-size: 24px;
   line-height: 28px;
-
-}
-
-.advantages-title-description {
+  font-weight: 700;
+  color: #FFFFFF;
   text-align: center;
-  color: rgba(51, 51, 51, 1);
+  text-transform: uppercase;
 }
 
-
-.advantages-item-img,
-.advantages-title-first,
-.advantages-title-description-first,
-.advantages-title-fifth,
-.advantages-title-description-fifth {
-  background-color: rgba(130, 179, 211, 1);
+.advantages-dark .advantages-title-description {
+  color: #FFFFFF;
+  text-align: center;
 }
 
-.advantages-title-second,
-.advantages-title-description-second,
-.advantages-title-fourth,
-.advantages-title-description-fourth {
-  background-color: rgba(131, 179, 211, 0.12);
+.advantages-light {
+  background: #83B3D31F;
 }
 
-.advantages-title-third,
-.advantages-title-description-third {
-  background: rgba(131, 179, 211, 0.2);
+.advantages-light .advantages-title {
+  font-size: 24px;
+  line-height: 28px;
+  font-weight: 700;
+  color: #000000;
+  text-align: center;
+  text-transform: uppercase;
 }
+
+.advantages-light .advantages-title-description {
+  color: #333333;
+  text-align: center;
+}
+
+.advantages-medium {
+  background: #83B3D333;
+}
+
+.advantages-medium .advantages-title {
+  font-size: 24px;
+  line-height: 28px;
+  font-weight: 700;
+  color: #000000;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.advantages-medium .advantages-title-description {
+  color: #333333;
+  text-align: center;
+}
+
 
 .service-text {
-  font-weight: 700;
   font-size: 30px;
   line-height: 36px;
-  text-transform: uppercase;
+  font-weight: 700;
   text-align: center;
-
-  white-space: pre;
+  text-transform: uppercase;
 }
 
 .service-text-description {
   font-size: 22px;
   line-height: 26px;
-  text-align: center;
-  white-space: pre;
-  color: rgba(51, 51, 51, 1);
-}
-
-.service-list {
+  color: #333333;
   text-align: center;
 }
 
-.service-title-first,
-.service-title-description-first,
-.service-title-third,
-.service-title-description-third {
-  background: rgba(131, 179, 211, 0.12);
+
+.service-medium {
+  background: #83B3D31F;
 }
+
+.service-medium .service-title {
+  font-size: 24px;
+  line-height: 28px;
+  font-weight: 700;
+  color: #000000;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.service-medium .service-title-description {
+  color: #333333;
+  text-align: center;
+}
+
+.service-transparent .service-title {
+  font-size: 24px;
+  line-height: 28px;
+  font-weight: 700;
+  color: #000000;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.service-transparent .service-title-description {
+  color: #333333;
+  text-align: center;
+}
+
 
 .search-hotel-text {
   font-weight: 700;
@@ -144,6 +186,9 @@ text-transform: uppercase;
 }
 
 .search-hotel-text-description {
+  font-size: 22px;
+  line-height: 26px;
+  font-weight: 400;
   text-align: center;
 }
 
@@ -159,6 +204,8 @@ height: 52px;
 
 .newsletter {
   background-image: url("../images/blur_subscribe.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .newsletter-title {
@@ -171,6 +218,9 @@ height: 52px;
 }
 
 .newsletter-title-description {
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 26px;
   color: #FFFFFF;
   text-align: center;
 }
@@ -178,6 +228,7 @@ height: 52px;
 .newsletter-form {
   color: #FFFFFF;
   text-align: center;
+  font-family: inherit;
 }
 
 .field {
@@ -185,6 +236,7 @@ height: 52px;
   padding: 12px 20px;
   width: 452px;
   height: 20px;
+  font-family: inherit;
 }
 
 .filter-button-active {

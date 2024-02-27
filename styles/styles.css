@@ -14,22 +14,53 @@
   font-display: swap;
 }
 
-
+.html {
+  height: 100%;
+}
 
 body {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  min-height: 100%;
   font-family: "PT Sans", sans-serif;
   font-size: 18px;
   line-height: 21px;
   font-weight: 400;
   font-style: normal;
   color: #000000;
-  background-color: #F2F2F2
+  background-color:#F2F2F2;
 }
 
-.page-header {
-  color: #000000;
-  background-color:
-  #FFFFFF;
+.site-container {
+  display: flex;
+  flex-direction: column;
+
+  margin: 0 auto;
+  width: 1200px;
+  background-color: #FFFFFF;
+}
+
+.header-logo {
+  display: block;
+}
+
+.navigation {
+  display: flex;
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.navigation-list {
+  width: 610px;
+  margin-left: auto;
+  padding: 0;
+  list-style: none;
+}
+
+.navigation-user {
+  width: 300px;
+  margin-left: auto;
 }
 
 .navigation-link {
@@ -42,7 +73,16 @@ body {
   text-transform: capitalize;
 }
 
+.page-container {
+  flex-grow: 1;
+  width: 1200px;
+  margin: 0 auto;
+}
 
+.pic {
+  display: block;
+  margin: 0 auto;
+}
 
 .hero {
   color: #000000;
@@ -68,9 +108,23 @@ text-transform: uppercase;
   text-align: center;
 }
 
+
+
 .advantages-item {
   background-color: #82B3D3;
 }
+
+.advantages-list {
+  display: flex;
+  flex-direction: row;
+  margin: 0;
+  padding: 0;
+  height: 385px;
+  list-style: none;
+}
+
+
+
 
 .advantages-dark .advantages-title {
   font-size: 24px;
@@ -123,6 +177,17 @@ text-transform: uppercase;
   text-align: center;
 }
 
+
+.service-list {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 0;
+  padding: 0;
+  width: 1200px;
+  height: 385px;
+  list-style: none;
+}
 
 .service-text {
   font-size: 30px;
@@ -368,4 +433,16 @@ text-transform: uppercase;
   text-decoration: none;
   color: #FFFFFF;
   background-color: #82B3D3;
+}
+
+
+
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  height: 120px;
+  margin: 0 auto;
+  padding: 50px;
+
 }
